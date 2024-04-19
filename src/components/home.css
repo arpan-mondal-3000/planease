@@ -1,0 +1,28 @@
+body{
+    background-color: #f6f8fa;
+}
+
+img{
+    height: 500px;
+    border-radius: 15px;
+}
+
+.main-area{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px 0;
+}
+
+.tagline{
+    height: 100%;
+    font-size: 64px;
+    word-wrap: break-word;
+}
+
+.colored-text{
+    font-size: 74px;
+    font-weight: 700;
+    color: #db2b39;
+}

@@ -2,48 +2,62 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  }
-  .navbar{
-     display:flex;
-     justify-content: space-around;
-     align-items: center;
-     padding-top: 10px;
-  }
-  .navbar ul{
-      /* background-color: yellow; */
-      display:flex;
-      list-style-type: none;
-      justify-content: space-around; 
-      align-items: center;
-  }
-  
-  .navbar ul li a{
-      margin: 0 50px;
-      text-decoration: none;
-      color: black;
-  }
-  
-  .register{
-      display: flex;
-  }
-  
-  .login, .signup{
-      margin: 0 10px;
-      border: 2px solid black;
-      padding: 3px 10px 5px 10px;
-      border-radius: 23px;
-      background-color: black;
-  }
-  
-  .login a{
-      text-decoration: none;
-      color: white;
-      font-weight: 600;
-  }
-  
-  .signup a{
-      text-decoration: none;
-      color: white;
-      font-weight: 600;
-  }
-  
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.navbar .logo{
+    margin-left: 5vw;
+    color: #db2b39;
+}
+
+.navbar ul{
+    /* background-color: yellow; */
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.navbar ul li a{
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+    padding: 3px 10px 5px 10px;
+    border: 2px solid transparent;
+}
+
+.navbar ul li a:hover{
+    border: 2px solid #db2b39;
+    border-radius: 23px;
+    background-color: #db2b39;
+    color: white;
+}
+
+.register{
+    display: flex;
+    margin-right: 5vw;
+}
+
+.login, .signup{
+    margin: 0 10px;
+    border: 2px solid #db2b39;
+    padding: 3px 10px 5px 10px;
+    border-radius: 23px;
+    background-color: #db2b39;
+    color: white;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
