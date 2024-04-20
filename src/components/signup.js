@@ -10,7 +10,6 @@ const Signup = () => {
   const signIn = async () => {
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      console.log(auth?.email);
     } catch (err) {
       console.log(err);
     }
