@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
-    padding:20px;
+    padding:3.63vh 1.583vw;
     border:2px solid #db2b39;
     border-radius: 12px;
 
@@ -37,9 +37,9 @@
 }
 .login-container input{
     width:100%;
-    padding: 10px;
+    padding: 1.815vh 0.7915vw;
     border-radius: 5px;
-    margin:9px;
+    margin:1.69vh 0.72vw;
     border:none;
     background-color: #e9ebf0;
 }
@@ -50,9 +50,9 @@
     padding-top:15px;
 }
 .login-submit button{
-    margin: 0 10px;
+    margin: 0 0.7915vw;
     border: 2px solid #db2b39;
-    padding: 5px 15px;
+    padding: 0.907vh 1.1876vw;
     border-radius: 23px;
     background-color: #db2b39;
     color: white;
