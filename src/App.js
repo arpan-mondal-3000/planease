@@ -8,6 +8,7 @@ import Signup from "./components/signup";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
+  let currentPath = window.location.pathname;
   const router = createBrowserRouter([
     {
       path: "/",
@@ -33,7 +34,11 @@ function App() {
 
   return (
     <div>
-      <Navbar />
+      {currentPath === "/signup" || currentPath === "/login" ? (
+        <div></div>
+      ) : (
+        <Navbar />
+      )}
       <RouterProvider router={router} />
     </div>
   );

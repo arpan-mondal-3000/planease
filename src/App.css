@@ -16,6 +16,10 @@
 
 .navbar .logo{
     margin-left: 5vw;
+}
+
+.navbar .logo a{
+    text-decoration: none;
     color: #db2b39;
 }
 
