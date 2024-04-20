@@ -17,12 +17,12 @@ img{
 
 .tagline{
     height: 100%;
-    font-size: 64px;
+    font-size: 4rem;
     word-wrap: break-word;
 }
 
 .colored-text{
-    font-size: 74px;
+    font-size: 5rem;
     font-weight: 700;
     color: #db2b39;
 }

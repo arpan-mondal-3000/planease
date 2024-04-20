@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <div className="main-area">
         <div className="tagline">
-          <div>Let's get this</div>{" "}
+          <div>Let's get this</div>
           <span className="colored-text">Planned</span>
           <div>
             with
