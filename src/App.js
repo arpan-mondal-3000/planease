@@ -6,6 +6,7 @@ import Create from "./components/create";
 import Login from "./components/login";
 import Signup from "./components/signup";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { AuthProvider } from "./contexts/AuthContext";
 
 function App() {
   let currentPath = window.location.pathname;
@@ -33,14 +34,16 @@ function App() {
   ]);
 
   return (
-    <div>
-      {currentPath === "/signup" || currentPath === "/login" ? (
-        <div></div>
-      ) : (
-        <Navbar />
-      )}
-      <RouterProvider router={router} />
-    </div>
+    <AuthProvider>
+      <div>
+        {currentPath === "/signup" || currentPath === "/login" ? (
+          <div></div>
+        ) : (
+          <Navbar />
+        )}
+        <RouterProvider router={router} />
+      </div>
+    </AuthProvider>
   );
 }
 
